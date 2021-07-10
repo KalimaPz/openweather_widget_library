@@ -1,14 +1,16 @@
 # openweather_widget
 
-A new Flutter package project.
-
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+add to pubspec.yaml
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+
+    dependencies:
+      flutter:
+        sdk: flutter
+      openweather_widget:
+        git:
+          url: git://github.com/KalimaPz/openweather_widget_library
+
+## How to Use it
+    WeatherWidgets(apiKey: <String> , lat : <double> , lng: <double> , interval_ms : <int>);
